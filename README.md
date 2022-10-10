@@ -37,10 +37,16 @@ Repositório da turma 0822CDFSPCN21BRED do curso de Desenvolvimento Web Full Sta
 - [x] [2022-09-14](./2022-09-14/README.md)
 - [x] [2022-09-15](./2022-09-15/README.md)
 - [x] [2022-09-20](./2022-09-20/README.md)
+- [x] [2022-09-20](./2022-09-20/README.md)
 - [x] [2022-09-22](./2022-09-22/README.md)
 - [x] [2022-09-27](./2022-09-27/README.md)
 - [x] [2022-09-29](./2022-09-29/README.md)
 - [x] [2022-10-04](./2022-10-04/README.md)
+- [x] [2022-10-06](./2022-10-06/README.md)
+
+### Introdução a node e javascript
+
+- [x] [2022-10-11](./2022-10-11/README.md)
 
 ## Status
 
