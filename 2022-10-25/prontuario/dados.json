@@ -1,0 +1,80 @@
+[
+  {
+    "id": "1",
+    "nome": "Magali",
+    "tipoSanguineo": "A+",
+    "dataDeNascimento": "1990-05-12",
+    "endereco": "Rua do campo, 234",
+    "telefone": "999999090",
+    "email": "magali@gmail.com",
+    "historico": [
+      {
+        "dataOcorrencia": "2022-10-12",
+        "descricao": "Fez consulta por conta de comer demais."
+      },
+      {
+        "dataOcorrencia": "2022-10-12",
+        "descricao": "Ficou internada dois dias por comer carambola."
+      }
+    ],
+    "exames": [
+      {
+        "dataOcorrencia": "2019-04-21",
+        "nome": "Sangue",
+        "resultados": "Nada consta"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "nome": "Mônica",
+    "tipoSanguineo": "A+",
+    "dataDeNascimento": "1990-05-12",
+    "endereco": "Rua do campo, 234",
+    "telefone": "999999090",
+    "email": "magali@gmail.com",
+    "historico": [
+      {
+        "dataOcorrencia": "2022-10-12",
+        "descricao": "Fez consulta depois de bater no cebolinha."
+      },
+      {
+        "dataOcorrencia": "2022-10-12",
+        "descricao": "Ficou internada dois dias por passar raiva."
+      }
+    ],
+    "exames": [
+      {
+        "dataOcorrencia": "2019-04-21",
+        "nome": "Sangue",
+        "resultados": "Nada consta"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "nome": "Cascão",
+    "tipoSanguineo": "B+",
+    "dataDeNascimento": "1990-05-12",
+    "endereco": "Rua do campo, 234",
+    "telefone": "999999090",
+    "email": "magali@gmail.com",
+    "historico": [
+      {
+        "dataOcorrencia": "2022-10-12",
+        "descricao": "Fez consulta por causa de indisposição."
+      },
+      {
+        "dataOcorrencia": "2022-10-12",
+        "descricao": "Ficou internado dois dias por comer goiaba."
+      }
+    ],
+    "exames": [
+      {
+        "dataOcorrencia": "2019-04-21",
+        "nome": "Sangue",
+        "resultados": "Nada consta"
+      }
+    ]
+  }
+]

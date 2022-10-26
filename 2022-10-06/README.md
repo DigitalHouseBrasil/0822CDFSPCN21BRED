@@ -2,8 +2,6 @@
 
 ## Revisão de funções, condicionais e arrays
 
-Revisão sobre vairáveis,
-
 ## Status
 
 Concluído ✅

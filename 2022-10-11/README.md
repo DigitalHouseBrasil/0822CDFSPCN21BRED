@@ -1,6 +1,6 @@
 # 2022-10-11
 
-## Instalação de Ferramentas
+## Uso de Ferramentas
 
 ### Ferramentas
 

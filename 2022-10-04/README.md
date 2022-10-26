@@ -2,8 +2,6 @@
 
 ## Arrays
 
-Introdução e manipulação de arrays.
-
 ## Status
 
 Concluído ✅
