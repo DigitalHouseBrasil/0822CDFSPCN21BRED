@@ -6,6 +6,10 @@
 
 ![Modelo cascata](./images/modelo-cascata.png)
 
+### Scrum
+
+![Scrum](./images/scrum.png)
+
 ## Status
 
-Em andamento 🚧
+Concluído ✅
