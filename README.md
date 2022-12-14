@@ -66,6 +66,11 @@ Repositório da turma 0822CDFSPCN21BRED do curso de Desenvolvimento Web Full Sta
 ### Anatomia da Web: HTML+CSS
 
 - [x] [2022-11-03](./2022-11-03/README.md)
+- [x] [2022-11-08 a 2022-11-22](./2022-11-08/README.md)
+- [x] [2022-11-24](./2022-11-24/README.md)
+- [x] [2022-11-29](./2022-11-29/README.md)
+- [x] [2022-12-01](./2022-12-01/README.md)
+- [x] [2022-12-08](./2022-12-08/README.md)
 
 ## Status
 

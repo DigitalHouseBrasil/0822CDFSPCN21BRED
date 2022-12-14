@@ -1,0 +1,271 @@
+/* Dependências */
+@import url('https://yarnpkg.com/en/package/normalize.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap');
+
+/* Variáveis globais */
+:root {
+    --size_xl: 3rem;
+    --size_lg: 2rem;
+    --size_md: 1rem;
+    --size_sm: .8rem;
+    --size_xs: .4rem;
+
+    --bg_primary__main: #141414;
+    --bg_primary__alt: #1c1c1c;
+    --bg_secondary__main: rgba(217, 217, 217, .1);
+    --bg_secondary__alt:rgba(217, 217, 217, .05);
+    --fg_primary: #fff;
+    --fg_highlight: #0436B8;
+
+    --font_main: "Montserrat";
+
+    --black: 900;
+    --bold: 700;
+    --regular: 500;
+    --thin: 400;
+}
+
+/* Cores */
+
+body {
+    background-image: linear-gradient(
+        90deg,
+        var(--bg_primary__main),
+        var(--bg_primary__alt)
+    );
+}
+
+a, h1, p, .copyright {
+    color: var(--fg_primary);
+}
+
+.content {
+    background-image: radial-gradient(
+        var(--bg_secondary__main),
+        var(--bg_secondary__alt)
+    );
+    border-color: var(--bg_secondary__main);
+}
+
+nav li:hover {
+    border-color: var(--fg_highlight);
+}
+
+.call-to-action {
+    background-color: var(--fg_highlight);
+}
+
+/* Tipografia */
+
+a, h1, p, .copyright {
+    font-family: var(--font_main);
+}
+
+nav li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: var(--thin);
+    font-size: var(--size_sm);
+}
+
+nav li:hover a {
+    font-weight: var(--black);
+}
+
+h1 {
+    font-size: var(--size_lg);
+    font-weight: var(--bold);
+}
+
+p {
+    font-size: var(--size_md);
+    font-weight: var(--thin);
+}
+
+.call-to-action {
+    font-size: var(--size_md);
+    font-weight: var(--bold);
+    text-decoration: none;
+}
+
+.copyright {
+    font-size: var(--size_sm);
+    font-weight: var(--thin);
+}
+
+/* Estilos */
+
+.content {
+    border-radius: var(--size_sm);
+    border-style: solid;
+    border-width: 1px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li:hover {
+    border-bottom-style: solid;
+    border-bottom-width: 6px;
+}
+
+.call-to-action {
+    border-radius: var(--size_xs);
+}
+
+footer {
+    text-align: center;
+}
+
+/* Layout - Responsividade */
+
+/* Espaçamentos - padding margin */
+
+body > * {
+    padding: var(--size_lg);
+}
+
+body > * > *  {
+    padding: var(--size_md);
+}
+
+.content {
+    margin: var(--size_md);
+}
+
+figure {
+    text-align: center;
+    margin: var(--size_xl);
+}
+
+/* smartphone-portrait max-width: 480px */
+
+@media (max-width: 480px) {
+
+    nav {
+        display: none;
+    }
+    
+    body > * > *  {
+        padding: var(--size_sm);
+    }
+
+    .main_header {
+        text-align: center;
+    }
+
+    .content {
+        margin: var(--size_sm);
+    }
+
+    .call-to-action {
+        display: block;
+        padding: var(--size_md) 0;
+        max-width: 350px;
+        text-align: center;
+    }
+
+    figure {
+        display: none;
+    }
+}
+
+/* smartphone-landscape/tablet-portrait max-width: 780px */
+
+@media (max-width: 780px) {
+
+    nav {
+        display: none;
+    }
+
+    .call-to-action {
+        display: block;
+        width: 250px;
+        padding: var(--size_md) 0;
+        text-align: center;
+        margin: var(--size_xl) auto;
+    }
+}
+
+@media (min-width: 780.01px) {
+
+    .content {
+        max-width: 800px;
+        margin: var(--size_lg) auto;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+        height: 35px;
+    }
+
+    nav li {
+        display: inline-block;
+        margin: 0 var(--size_lg);
+        width: 50px;
+    }
+
+    nav li a {
+        display: inline-block;
+        margin-bottom: var(--size_md);
+    }
+
+    main {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    p {
+        font-size: var(--size_sm);
+    }
+
+    article, figure {
+        width: calc(50% - var(--size_md)/2);
+    }
+
+    .call-to-action {
+        display: block;
+        width: 250px;
+        padding: var(--size_sm) 0;
+        text-align: center;
+        margin: var(--size_lg) 0;
+    }
+
+    figure {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Animações */
+
+    nav li {
+        transition: margin-top .3s;
+    }
+
+    nav li:hover {
+        margin-top: -5px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Grade - flexbox */

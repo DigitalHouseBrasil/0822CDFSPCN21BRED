@@ -1,0 +1,26 @@
+div {
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+.exemplo {
+    transition: background-color 3s, scale .5s, border-radius 1s;
+}
+
+.exemplo:hover {
+    background-color: aqua;
+    scale: 1.2;
+    border-radius: 100%;
+}
+
+/*
+
+relative: se move em relação ao seu próprio posicionamento original
+
+absolute: ele se move em relação ao seu ancestral mais próprio com position 
+declarado, ou então, se não houver, em relação ao elemento html
+
+fixed: ele se move em relação ao viewport
+*/
