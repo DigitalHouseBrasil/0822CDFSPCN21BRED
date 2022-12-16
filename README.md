@@ -16,10 +16,6 @@ Repositório da turma 0822CDFSPCN21BRED do curso de Desenvolvimento Web Full Sta
 
 ## Contato com os professores
 
-### Isabella Nunes
-
-[![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white)](https://alunos-dhbr.slack.com/team/U03J8B8H7G9)[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ifreitas@digitalhouse.com)[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/isadfrn/)[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/isadfrn)
-
 ### Thiago Nelsi
 
 [![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white)](https://alunos-dhbr.slack.com/team/U03ACFS3F09)[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:tcouto@digitalhouse.com)[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/thiagonelsi/)[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ThiagoNelsi)
@@ -70,7 +66,15 @@ Repositório da turma 0822CDFSPCN21BRED do curso de Desenvolvimento Web Full Sta
 - [x] [2022-11-24](./2022-11-24/README.md)
 - [x] [2022-11-29](./2022-11-29/README.md)
 - [x] [2022-12-01](./2022-12-01/README.md)
+
+### Projeto Integrador I
+
 - [x] [2022-12-08](./2022-12-08/README.md)
+
+### Javascript Front
+
+- [x] [2022-12-13](./2022-12-13/README.md)
+- [x] [2022-12-15](./2022-12-15/README.md)
 
 ## Status
 

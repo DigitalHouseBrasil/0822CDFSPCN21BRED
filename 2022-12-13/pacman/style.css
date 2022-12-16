@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #000000;
+}
+
+.pacman {
+  width: 4rem;
+  height: 4rem;
+  position: absolute;
+
+  /* Manipular o eixo Y */
+  top: 0px;
+
+  /* Manipular o eixo X */
+  left: 0px;
+}
