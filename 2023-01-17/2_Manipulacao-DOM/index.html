@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2_Maniputação DOM</title>
+</head>
+<body>
+    
+    <h1 id="titulo">Título do HTML</h1>
+    <h1 id="subtitulo">Subtitulo do HTML</h1>
+
+    <script>
+        // 1. Seleção de elementos da arvore DOM
+        const elementoPelaId = document.getElementById('titulo');
+        // getElementById
+        // getElementByName
+        // getElementsByTag
+        // getElementsByClassName
+        const elementoPelaIdOuClass = document.querySelector('#titulo');
+
+        // 2. Modificar...
+        elementoPelaId.innerHTML = "<em>Titulo manipulado via Javascript</em>";
+        elementoPelaId.innerText = "<em>Subtitulo manipulado via Javascript</em>"
+    </script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Nossa loja virtual</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row mt-5 mb-3">
+            <div class="col">
+                <h1>Nossa loja virtual</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h2>Itens na promoção</h2>
+            </div>
+        </div>
+        <div id="elemProducts" class="row">
+            
+        </div>
+        <div class="row mt-5">
+            <div class="col">2023 - Todos os direitos reservados a nós.</div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script>
+        /*
+            // Opção 1: then()
+            fetch('https://fakestoreapi.com/products?limit=4')
+                .then(requisicao => requisicao.json())
+                .then(listaDeProdutos => apresentarProdutosEmDestaque(listaDeProdutos));
+        */
+
+        /*
+            // Opção 2: async/await, then()
+        
+            const requererTodosOsProdutos = async () => {
+                const pedido = await fetch('https://fakestoreapi.com/products?limit=4');
+                const produtos = await pedido.json();
+
+                return produtos;
+            }
+
+            requererTodosOsProdutos()
+                .then(produtos => apresentarProdutosEmDestaque(produtos));
+        */
+
+        /*
+            Opção 3: async/await 
+        */
+
+        const requererTodosOsProdutos = async () => {
+            const pedido = await fetch('https://fakestoreapi.com/products?limit=4');
+            const produtos = await pedido.json();
+
+            apresentarProdutosEmDestaque(produtos);
+        }
+    
+        const apresentarProdutosEmDestaque = produtos => {
+                // 1. Seleciono o elemento
+                const elemProducts = document.querySelector('#elemProducts');
+                produtos.map(produto => {
+                    // 2. Adiciona as informações em elementos HTML.
+                    // 2.1. Injeto em um elemento existe no documento.
+                    elemProducts.innerHTML += `
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="card my-3">
+                                <img src="${produto.image}" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">${produto.title}</h5>
+                                    <p class="card-text">${produto.description}</p>
+                                    <h1>$ ${produto.price}</h1>
+                                    <a href="#" class="btn btn-primary">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+            });
+        }
+    </script>
+</body>
+</html>
