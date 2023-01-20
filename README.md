@@ -8,7 +8,7 @@ Repositório da turma 0822CDFSPCN21BRED do curso de Desenvolvimento Web Full Sta
 
 [Terça e Quinta](https://digitalhouse.zoom.us/j/95349644844)
 
-[Quarta (Colearning coletivo)](https://digitalhouse.zoom.us/j/95414689164)
+[Quarta (Colearning coletivo)](https://digitalhouse.zoom.us/j/95349644844)
 
 ## Agendar colearning
 
@@ -75,6 +75,7 @@ Repositório da turma 0822CDFSPCN21BRED do curso de Desenvolvimento Web Full Sta
 
 - [x] [2022-12-13](./2022-12-13/README.md)
 - [x] [2022-12-15](./2022-12-15/README.md)
+- [x] [2023-01-17](./2023-01-17/README.md)
 
 ## Status
 

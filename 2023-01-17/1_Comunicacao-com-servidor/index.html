@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1_Comunicação com servidor</title>
+</head>
+<body>
+    
+    <script>
+        // Endpoint
+        // https://viacep.com.br/ws/01001000/json/
+
+        // Opção 1: then()
+        // assincrona = realizar um pedido, aguardar uma resposta
+        //const meuCep = fetch('https://viacep.com.br/ws/01001000/json/');
+
+        // Requisição
+        //meuCep
+            // Resposta
+            //.then((resposta) => { 
+                //console.log('Primeira resposta');
+                //return resposta.json()
+            //})
+            //.then((respostaConvertidaEmJson) => {
+                //console.log('Segunda resposta');
+                //console.log(respostaConvertidaEmJson)
+            //});
+
+        //console.log('O que vem depois da resposta!');
+
+        // Opção 2: async / await
+        const meuCep = async () => {
+            const pedido = await fetch('https://viacep.com.br/ws/01001000/json/');
+            console.log('Primeira resposta');
+            const respostaConvertidaEmJson = await pedido.json();
+            console.log('Segunda resposta');
+            
+            console.log(respostaConvertidaEmJson);
+            console.log('O que vem depois da resposta!');
+        }
+
+        meuCep();
+
+    </script>
+</body>
+</html>
