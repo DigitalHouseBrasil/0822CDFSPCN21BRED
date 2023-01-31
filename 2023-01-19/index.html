@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de cadastro</title>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <h1>Cadastro</h1>
+
+    <form action="http://localhost:3333/cadastro" method="post" id="formulario">
+        <!-- input, label -->
+
+        <div class="input-block">
+            <label for="nome">Nome</label>
+            <input minlength="2" maxlength="50" name="nome" id="nome" type="text" placeholder="Digite aqui..." required>
+        </div>
+
+        <div class="input-block">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+
+        <div class="input-block">
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" id="senha" required>
+            <button type="button" id="mostrar">Mostrar senha</button>
+            <ul id="erros"></ul>
+        </div>
+
+        <div class="input-block">
+            <label for="data">Data de Nascimento</label>
+            <input type="date" name="dataDeNascimento" id="data" required>
+        </div>
+
+        <div class="input-block">
+            <fieldset>
+                <legend>Sexo</legend>
+
+                <input type="radio" name="sexo" id="feminino" value="F" checked>
+                <label for="feminino">Feminino</label>
+
+                <input type="radio" name="sexo" id="masculino" value="M">
+                <label for="masculino">Masculino</label>
+            </fieldset>
+        </div>
+
+        <select name="estado" id="estado">
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Maranhão</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MG" selected>Minas Gerais</option>
+            <option value="PA">Pará</option>
+            <option value="PB">Paraíba</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option>
+            <option value="EX">Estrangeiro</option>
+        </select>
+
+        <div class="input-block">
+            <input type="checkbox" name="aceito" id="aceito" required>
+            <label for="aceito">Aceito os <a href="">termos</a></label>
+        </div>
+
+        <input type="submit" value="Cadastrar">
+    </form>
+</body>
+
+</html>

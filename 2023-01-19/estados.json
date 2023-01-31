@@ -1,0 +1,110 @@
+[
+    {
+        "nome": "Acre",
+        "abrev": "AC"
+    },
+    {
+        "nome": "Alagoas",
+        "abrev": "AL"
+    },
+    {
+        "nome": "Amapá",
+        "abrev": "AP"
+    },
+    {
+        "nome": "Amazonas",
+        "abrev": "AM"
+    },
+    {
+        "nome": "Bahia",
+        "abrev": "BA"
+    },
+    {
+        "nome": "Ceará",
+        "abrev": "CE"
+    },
+    {
+        "nome": "Distrito Federal",
+        "abrev": "DF"
+    },
+    {
+        "nome": "Espírito Santo",
+        "abrev": "ES"
+    },
+    {
+        "nome": "Goiás",
+        "abrev": "GO"
+    },
+    {
+        "nome": "Maranhão",
+        "abrev": "MA"
+    },
+    {
+        "nome": "Mato Grosso",
+        "abrev": "MT"
+    },
+    {
+        "nome": "Mato Grosso do Sul",
+        "abrev": "MS"
+    },
+    {
+        "nome": "Minas Gerais",
+        "abrev": "MG"
+    },
+    {
+        "nome": "Pará",
+        "abrev": "PA"
+    },
+    {
+        "nome": "Paraíba",
+        "abrev": "PB"
+    },
+    {
+        "nome": "Paraná",
+        "abrev": "PR"
+    },
+    {
+        "nome": "Pernambuco",
+        "abrev": "PE"
+    },
+    {
+        "nome": "Piauí",
+        "abrev": "PI"
+    },
+    {
+        "nome": "Roraima",
+        "abrev": "RR"
+    },
+    {
+        "nome": "Rondônia",
+        "abrev": "RO"
+    },
+    {
+        "nome": "Rio de Janeiro",
+        "abrev": "RJ"
+    },
+    {
+        "nome": "Rio Grande do Norte",
+        "abrev": "RN"
+    },
+    {
+        "nome": "Rio Grande do Sul",
+        "abrev": "RS"
+    },
+    {
+        "nome": "Santa Catarina",
+        "abrev": "SC"
+    },
+    {
+        "nome": "São Paulo",
+        "abrev": "SP"
+    },
+    {
+        "nome": "Sergipe",
+        "abrev": "SE"
+    },
+    {
+        "nome": "Tocantins",
+        "abrev": "TO"
+    }
+]
