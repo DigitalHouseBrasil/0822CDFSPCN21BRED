@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar filme</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Página inicial</a>
+        </nav>
+    </header>
+    <h1>Cadastrar filme</h1>
+    <form action="http://localhost:3000/filmes" method="post">
+        <div class="input-block">
+            <label for="titulo">Título do filme</label>
+            <input type="text" name="titulo" id="titulo" minlength="1" required>
+        </div>
+        <div class="input-block">
+            <label for="genero">Gênero</label>
+            <input type="text" name="genero" id="genero" minlength="1" required>
+        </div>
+        <div class="input-block">
+            <label for="ano">Ano</label>
+            <input type="number" name="ano" id="ano" max="2023" required>
+        </div>
+        <div class="input-block">
+            <label for="nota">Nota</label>
+            <input type="number" name="nota" id="nota" max="10" required>
+        </div>
+        <button type="submit">Cadastrar filme</button>
+    </form>
+</body>
+</html>
