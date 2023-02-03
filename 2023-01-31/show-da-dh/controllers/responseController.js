@@ -28,13 +28,7 @@ const controller = {
     response: (req, res) => {
         let sentAnswer = req.body.resposta;
         let message = checkAnswer(sentAnswer);  
-        res.send(
-            `
-            <h1>${message.title}</h1>
-            <p>${message.description}</p>
-            <a href="/">${message.action}</a>
-            `
-        )
+        res.render('response', message)
     }
 };
 
