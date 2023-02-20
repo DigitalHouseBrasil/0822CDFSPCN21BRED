@@ -1,4 +1,4 @@
-# 2023-01-31 ~
+# 2023-01-31 ~ 2023-02-07
 
 ## Padrões MVC
 
@@ -9,13 +9,14 @@ Até agora, vimos:
  - Quais são os problemas de se contruir aplicações monolíticas
  - Camada de rotas: quais suas responsabilidades e como são implementadas
  - Camada de controllers: quais suas responsabilidades e como são implementadas
+ - Camada de views: quais suas responsabilidades, que é EJS e como implementar.
 
 ## Status
 
-Em andamento...
+Concluído ✅
 
 ## Instruções para utilizar os arquivos
 
- - [Entre na pasta](../)
+ - Acesse esta pasta pelo repositório local, em seu computador
  - Instale as dependências com `npm i`
  - Execute o arquivo `app.js` com o `node` ou o `nodemon`

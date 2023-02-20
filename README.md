@@ -85,7 +85,10 @@ Repositório da turma 0822CDFSPCN21BRED do curso de Desenvolvimento Web Full Sta
 
 ### Express
 
-- [x] [2023-01-31](./2023-01-31/README.md)
+- [x] [2023-01-31 a 2023-02-07](./2023-01-31/README.md)
+- [x] [2023-02-09](./2023-02-09/README.md)
+- [x] [2023-02-14](./2023-02-14/README.md)
+- [x] [2023-02-16](./2023-02-16/README.md)
 
 ## Status
 

@@ -1,0 +1,13 @@
+<form action="/upload" method="post" enctype="multipart/form-data">
+    <input type="file" name="photo">
+    <input type="submit" value="Enviar">
+</form>
+
+<div style="display: flex">
+    <% photos.forEach(photo => { %>
+        <form action="/delete/<%= photo.id %>?_method=DELETE" method="post" height="300px" width="300px" style="margin: 30px">
+            <input type="image" src="photos/<%= photo.path %>" height="300px" width="300px" style="display: block">
+            <label><%= photo.name %></label>
+        </form>
+    <% }) %>
+</div>

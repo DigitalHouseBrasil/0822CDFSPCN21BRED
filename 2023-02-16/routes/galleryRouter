@@ -1,0 +1,11 @@
+const router = require('express').Router();
+const multer = require('multer')
+const multerConfigs = require('../config/multer')
+
+const galleryController = require('../controllers/galleryController');
+
+router.get('/', galleryController.showGallery);
+router.post('/upload', multer(multerConfigs).single('photo') , galleryController.uploadPhoto)
+router.delete('/delete/:id', galleryController.deletePhoto)
+
+module.exports = router;
