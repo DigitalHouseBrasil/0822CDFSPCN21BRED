@@ -1,0 +1,25 @@
+<form action="/create" method="post">
+    <input type="text" name="text" placeholder="Cadastre uma nova mensagem">
+    <input type="submit" value="Cadastrar">
+</form>
+
+<table>
+
+    <% for (message of messages) { %>
+        <tr>
+            <td><%= message.id %></td>
+            <td><%= message.text %></td>
+            <td>
+                <form action="/form/<%= message.id %>" method="post">
+                    <input type="submit" value="Editar">
+                </form>
+            </td>
+            <td>
+                <form action="/delete/<%= message.id %>?_method=delete" method="post">
+                    <input type="submit" value="Excluir">
+                </form>
+            </td>
+        </tr>
+    <% } %>
+
+</table>

@@ -1,0 +1,7 @@
+<form action="/edit?_method=PUT" method="post">
+    <input name="id" type="text" value="<%= message.id %>" hidden>
+    <label>Qual é a nova mensagem para o ID: <%= message.id %></label>
+    <input name="text" type="text" value="" placeholder="<%= message.text %>">
+    <input type="submit" value="Alterar">
+</form>
+<a href="/">Voltar para a lista de mensagens</a>
