@@ -10,7 +10,7 @@ function uploadPhoto (req, res) {
     if (isRegular) {
         galleryModel.uploadPhoto(
             req.file.originalname,
-            req.file.path
+            req.file.filename
         )
         res.redirect('/')
     } else {
