@@ -1,10 +1,10 @@
-# 2023-02-28 ~: Cookies e sessões
+# 2023-03-02 ~ 2023-07-02: Cookies e sessões
 
 Essa aula teve como objetivo principal demonstrar o funcionamento de cookies e sessões com o `express-validator`. Além disso, aborda questões de criptografia de senhas utilizando `bcrypt`.
 
 ## Status
 
-Em andamento 🚧
+Concluído ✅
 
 ## Instruções para utilizar os arquivos
 

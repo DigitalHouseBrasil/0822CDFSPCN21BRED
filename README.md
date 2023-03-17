@@ -79,7 +79,7 @@ Repositório da turma 0822CDFSPCN21BRED do curso de Desenvolvimento Web Full Sta
 - [x] [2023-01-19](./2023-01-19/README.md)
 - [x] [2023-01-24](./2023-01-24/README.md)
 
-### Projeto Integrador I
+### Projeto Integrador II
 
 - [x] [2023-01-26](./2023-01-26/README.md)
 
@@ -90,7 +90,12 @@ Repositório da turma 0822CDFSPCN21BRED do curso de Desenvolvimento Web Full Sta
 - [x] [2023-02-14](./2023-02-14/README.md)
 - [x] [2023-02-16](./2023-02-16/README.md)
 - [x] [2023-02-28](./2023-02-28/README.md)
-- [ ] [2023-03-02](./2023-03-02/README.md)
+- [x] [2023-03-02 a 2023-03-07](./2023-03-02/README.md)
+
+### Banco de dados
+
+- [x] [2023-03-14](./2023-03-14/README.md)
+- [x] [2023-03-16](./2023-03-16/README.md)
 
 ## Status
 
