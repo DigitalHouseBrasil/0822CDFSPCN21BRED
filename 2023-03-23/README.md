@@ -1,6 +1,6 @@
-# 2023-03-21 : Sequelize -- Promisses e async/await
+# 2023-03-23 : Sequelize -- Configuração I
 
-Utilização de JavaScript assícrono através da manipulação de `Promisses` e sintaxe `async`/`await`.
+Instalação e configuração do ORM Sequelize e primeiros usos.
 
 ## Status
 

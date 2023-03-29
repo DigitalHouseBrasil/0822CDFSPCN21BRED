@@ -1,0 +1,19 @@
+{
+  "name": "2023-03-23",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mysql2": "^3.2.0",
+    "sequelize": "^6.29.3"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.6.0"
+  }
+}
