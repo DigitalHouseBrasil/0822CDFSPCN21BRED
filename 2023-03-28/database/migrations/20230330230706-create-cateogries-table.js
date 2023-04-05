@@ -4,8 +4,8 @@
 module.exports = {
   async up (queryInterface, Sequelize) {
     await queryInterface.createTable(
-      'Users', 
-      { 
+      "Categories",
+      {
         id: {
           type: Sequelize.INTEGER,
           allowNull: false,
@@ -13,10 +13,6 @@ module.exports = {
           autoIncrement: true
         },
         name: {
-          type: Sequelize.STRING,
-          allowNull: false
-        },
-        email: {
           type: Sequelize.STRING,
           allowNull: false
         },
@@ -29,10 +25,10 @@ module.exports = {
           allowNull: false
         },
       }
-    );
+    )
   },
 
   async down (queryInterface, Sequelize) {
-    await queryInterface.dropTable('Users');
+    await queryInterface.dropTable('Categories');
   }
 };

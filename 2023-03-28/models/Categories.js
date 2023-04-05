@@ -1,24 +1,23 @@
 const {Model, DataTypes} = require('sequelize');
 
-class Users extends Model {
+class Categories extends Model {
     static init (sequelize) {
         super.init({
               name: DataTypes.STRING,
-              email: DataTypes.STRING,
         }, {
             sequelize
         })
     };
 
     static associate (models) {
-        this.belongsTo( // belongsTo (chave estrangeira) <---> HasOne/Many (chave primária na tabela original)
-            models.Categories,
+        this.hasMany(
+            models.Users,
             {
                 foreignKey: 'categoryId',
-                as: 'member'
+                as: 'members'
             }
         )
     };
 };
 
-module.exports = Users;
+module.exports = Categories;

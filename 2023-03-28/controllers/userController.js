@@ -1,18 +1,18 @@
 const Users = require('../models/Users')
 
-function index (req, res) {
-    res.send('O aplicativo está funcionando.')
-};
-
 async function createUser (req, res) {
-    const { name, email } = req.body;
-    const createdUser = await Users.create({ name, email });
+    const { name, email, categoryId } = req.body;
+    const createdUser = await Users.create({ name, email, categoryId });
 
     return res.json(createdUser);
 };
 
 async function listUsers (req, res) {
-    const users = await Users.findAll();
+    const users = await Users.findAll({
+        include: {
+            association: 'member'
+        }
+    });
     return res.json(users);
 };
 
@@ -23,7 +23,6 @@ async function updateUser (req, res) {};
 async function deleteUser (req, res) {};
 
 module.exports = {
-    index,
     createUser,
     listUsers,
     listUser,
